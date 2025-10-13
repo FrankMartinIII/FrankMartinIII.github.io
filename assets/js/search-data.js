@@ -501,6 +501,11 @@ ninja.data = [{
           description: "Simulating the experience of being caught in a rip current in virtual reality.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/rip_current/";
+            },},{id: "projects-snow-squall-driving-simulation",
+          title: 'Snow Squall Driving Simulation',
+          description: "Experience driving through a snow squall using virtual reality.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/snow_squall/";
             },},{
         id: 'social-email',
         title: 'email',
