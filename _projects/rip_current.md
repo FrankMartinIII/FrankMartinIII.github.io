@@ -3,7 +3,7 @@ layout: page
 title: Rip Current Virtual Reality Simulation
 description: Simulating the experience of being caught in a rip current in virtual reality.
 img: assets/img/rip_pull.png
-importance: 1
+importance: 10
 category: work
 related_publications: true
 featured: true
