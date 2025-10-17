@@ -9,9 +9,7 @@ related_publications: true
 featured: true
 ---
 
-Snow squalls are short periods of intense snowfall. These events create dangerous driving conditions due to slick, icy roads and low visibility. At Hofstra, DR. Bernhardt and I set out to create a simulation that replicates the experience of encountering a snow squall while on the road without the associated risk. Our immersive expeience can help drivers to understand the risks of snow squalls and be better prepared to take safe and effective action to reduce the risk of accidents.
-
-
+Snow squalls are short periods of intense snowfall. These events create dangerous driving conditions due to slick, icy roads and low visibility. At Hofstra, <a href="https://www.hofstra.edu/faculty-profile/?id=6053">Dr. Bernhardt</a> and I set out to create a simulation that replicates the experience of encountering a snow squall while on the road without the associated risk. Our immersive application can help drivers to understand the risks of snow squalls and be better prepared to take safe and effective action to reduce the risk of accidents.
 
 Our project was funded by the <a href="https://www.nsc.org/newsroom/2024-road-to-zero-community-traffic-grant-winners?srsltid=AfmBOooyWGNTrF2DfJfRd35DznS9zSWjhZZ3vWtyXxnPlY9o3Xapzw_3">National Safety Council Road to Zero grant</a>.
 <div class="row">
