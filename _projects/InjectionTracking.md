@@ -6,7 +6,7 @@ img: assets/img/XMarksTheSpot.png
 importance: 4
 category: work
 related_publications: true
-featured: false
+featured: true
 ---
 
 Every project has a beautiful feature showcase page.
