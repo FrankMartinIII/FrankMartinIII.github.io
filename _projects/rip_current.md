@@ -52,3 +52,4 @@ Previously, Spanish NOAA warning signs had a multitude of translation issues and
 
 [2] K. Fallon, J. Bernhardt, F. Martin, “Corrientes Marinas: Evaluating Spanish rip current communications through beach signs and virtual reality,” <i>Weather, Climate, and Society,</i> In Press, citation info pending.
 
+<!--[2] {% cite CorrientesMarinasEvaluatingSpanishRipCurrentCommunicationsthroughBeachSignsandVirtualReality %}-->

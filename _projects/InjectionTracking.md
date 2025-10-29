@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Injection Site Tracking
-description: with background image
+description: Finding a region of interest using a hand-drawn X
 img: assets/img/XMarksTheSpot.png
 importance: 4
 category: work
@@ -9,18 +9,9 @@ related_publications: true
 featured: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+We are developing a robot that can deliver injections. Our goal is to make robots that be easily controlled by human operators and doctors. I wanted to take on the challenging task of building a system that naturally fits into a clinical setting without too much change the routine of medical staff. To integrate a robot for injection as seamlessly as possible, it was logical to me that we would want to allow doctors and nurses to easily mark an area on the skin, akin to what they might do before a surgical procedure, and have the robotic system automatically acquire and track the region of interest from these markings. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+I came up with multiple ideas to accomplish this, conducting many experiments with ellipse fitting, circle detection, and contour tracking. Ultimately, we settled on the idea of using an X shape. Why? An X is easy for a human to draw, has an exact point of interest, and is intuitive for a human to understand. Regardless of the size and shape of the X, it is obvious that the injection should be delivered at the intersection point, though detecting this with computer vision and retrieving a full 6 degree-of-freedom pose is more challenging.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
