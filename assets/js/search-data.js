@@ -18,31 +18,17 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "Publications",
-          description: "Publications by categories in reversed chronological order.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "My projects lie in the areas of VR and Robotics",
+          description: "My projects lie in the areas of Virtual Reality, Augmented Reality, Human-Computer Interaction, and Robotics",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
-          },
-        },{id: "nav-repositories",
-          title: "Repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
           },
         },{id: "books-the-godfather",
           title: 'The Godfather',
@@ -105,6 +91,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-needle-wielding-robot-for-injection",
+          title: 'Needle-Wielding Robot for Injection',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/InjectionRobot/";
             },},{id: "projects-injection-site-tracking",
           title: 'Injection Site Tracking',
           description: "Finding a region of interest using a hand-drawn X",
@@ -112,7 +103,7 @@ ninja.data = [{
               window.location.href = "/projects/InjectionTracking/";
             },},{id: "projects-6-dof-end-effector-for-wound-closure-robot",
           title: '6-DOF End-Effector for Wound Closure Robot',
-          description: "Stepper motors and a Stewart platform operated using ROS on a Raspberry Pi 4B",
+          description: "Stepper motors and a Stewart platform operated using ROS on a Raspberry Pi 4B—completed for Master&#39;s Thesis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/masters/";
             },},{id: "projects-rip-current-virtual-reality-simulation",
@@ -145,6 +136,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/frank-martin-iii", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=e_So4jEAAAAJ", "_blank");
         },
       },{
       id: 'light-theme',
