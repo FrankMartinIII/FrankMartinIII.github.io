@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 6-DOF End-Effector for Wound Closure Robot 
-description: Stepper motors and a Stewart platform operated using ROS on a Raspberry Pi 4B
+description: Stepper motors and a Stewart platform operated using ROS on a Raspberry Pi 4B—completed for Master's Thesis
 img: assets/img/StewartPlatform-1 (2).jpg
 importance: 7
 category: work
@@ -26,7 +26,7 @@ In short, my contributions consisted of the following (and more):
 
 I created the system using <strong>ROS</strong>, with each part of the system operating using a series of node communicating with each other over messages.
 
-This project was completed as a part of my master's thesis, which <a href = "https://colelibrary.idm.oclc.org/login?url=https://www.proquest.com/dissertations-theses/miniaturization-robotic-wound-closure-system-end/docview/3142495251/se-2?accountid=41461"> you can read here. </a>
+<strong>This project was completed as a part of my master's thesis, which </strong> <a href = "https://colelibrary.idm.oclc.org/login?url=https://www.proquest.com/dissertations-theses/miniaturization-robotic-wound-closure-system-end/docview/3142495251/se-2?accountid=41461"> <b>you can read here.</b> </a>
 
 
 <div class="row">

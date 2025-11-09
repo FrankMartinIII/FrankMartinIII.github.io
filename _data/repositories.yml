@@ -1,11 +1,11 @@
-github_users:
-  - torvalds
-  - alshedivat
+#github_users:
+#  - FrankMartinIII
+#  - alshedivat
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
+  - FrankMartinIII/VisionForStewart
   - jekyll/jekyll
   - twbs/bootstrap
   - jquery/jquery

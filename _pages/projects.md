@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: My projects lie in the areas of VR and Robotics
+description: My projects lie in the areas of Virtual Reality, Augmented Reality, Human-Computer Interaction, and Robotics
 nav: true
 nav_order: 3
 display_categories: [work, fun]
