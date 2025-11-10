@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Injection Site Tracking
-description: Finding a region of interest using a hand-drawn X
+description: Finding a region of interest using a hand-drawn X-mark.
 img: assets/img/XMarksTheSpot.png
 importance: 4
 category: work
