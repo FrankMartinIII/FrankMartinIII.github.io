@@ -35,16 +35,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-our-manuscript-corrientes-marinas-evaluating-spanish-rip-current-communications-through-beach-signs-and-virtual-reality-was-accepted-for-publication-in-weather-climate-and-society",
+          title: 'Our manuscript “Corrientes Marinas: Evaluating Spanish Rip Current Communications through Beach Signs and...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-we-are-scheduled-to-present-our-work-corrientes-marinas-evaluating-spanish-rip-current-communications-through-beach-signs-and-virtual-reality-at-the-106th-american-meteorological-society-annual-meeting-during-the-session-advancements-of-risk-communication-in-spanish-speaking-communities-on-january-28th-at-9-45-am-central-time",
+          title: 'We are scheduled to present our work “Corrientes Marinas: Evaluating Spanish Rip Current...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-we-will-be-presenting-communicating-snow-squall-risk-in-english-and-spanish-with-virtual-reality-at-the-106th-american-meteorological-society-annual-meeting-during-the-session-communication-to-build-trust-in-the-science-of-weather-on-january-27th-at-9-00-am-central-time",
+          title: 'We will be presenting “Communicating Snow Squall Risk in English and Spanish with...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -98,9 +96,14 @@ ninja.data = [{
               window.location.href = "/projects/InjectionRobot/";
             },},{id: "projects-injection-site-tracking",
           title: 'Injection Site Tracking',
-          description: "Finding a region of interest using a hand-drawn X",
+          description: "Finding a region of interest using a hand-drawn X-mark.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/InjectionTracking/";
+            },},{id: "projects-xr-fixture-adjustment",
+          title: 'XR Fixture Adjustment',
+          description: "HoloLens application for human-robot interaction.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/XRAdjust/";
             },},{id: "projects-6-dof-end-effector-for-wound-closure-robot",
           title: '6-DOF End-Effector for Wound Closure Robot',
           description: "Stepper motors and a Stewart platform operated using ROS on a Raspberry Pi 4B—completed for Master&#39;s Thesis",
