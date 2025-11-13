@@ -38,6 +38,10 @@ I created the system using <strong>ROS</strong>, with each part of the system op
     The Stewart platform after completion.
 </div>
 
+<div class="row justify-content-sm-center" style="padding-bottom: 30px">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Lu0KDima3vQ?si=Zk6L82R4gwYwSSQP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/PiAndTwoSteppers.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -74,5 +78,7 @@ I created the system using <strong>ROS</strong>, with each part of the system op
     </div>
 </div>
 <div class="caption">
-    Left: Shinani Y07-43D1-4275 6-lead stepper motor. Middle: Actuonix L12-30 mm linear actuator with feedback. Right: Linear actuator control board.
+    Left: Shinano Y07-43D1-4275 6-lead stepper motor. Middle: Actuonix L12-30 mm linear actuator with feedback. Right: Linear actuator control board.
 </div>
+
+<!-- {% cite MastersThesis %} -->
