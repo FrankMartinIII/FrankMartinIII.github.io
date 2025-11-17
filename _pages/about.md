@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Researcher at Hofstra University in VR/AR and Robotics
+subtitle: Research Assistant at Hofstra University in VR/AR and Robotics
 
 profile:
   align: right
@@ -30,7 +30,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a researcher whose primary interests lie in the fields of virtual/augmented reality, robotics, and human-computer interaction. I have been working on research at Hofstra since 2021 and have collaborated on projects with the [National Weather Service](https://www.weather.gov/ctp), [New York Sea Grant](https://seagrant.sunysb.edu/), the [Pennsylvania Dept. of Transportation](https://www.pa.gov/agencies/penndot), and more.
+I am a research assistant whose primary interests lie in the fields of virtual/augmented reality, robotics, and human-computer interaction. I have been conducting research at Hofstra since 2021 and have collaborated on projects with the [National Weather Service](https://www.weather.gov/ctp), [New York Sea Grant](https://seagrant.sunysb.edu/), the [Pennsylvania Dept. of Transportation](https://www.pa.gov/agencies/penndot), and more.
 
 <!--Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 

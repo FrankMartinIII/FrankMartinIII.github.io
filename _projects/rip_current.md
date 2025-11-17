@@ -46,6 +46,8 @@ Previously, Spanish NOAA warning signs had a multitude of translation issues and
     </div>
 </div>
 
+Our deployment of the simulation was also mentioned in [Governor Kathy Hochul's press release.](https://www.governor.ny.gov/news/ahead-fourth-july-weekend-governor-hochul-updates-new-yorkers-states-measures-monitor-sharks)
+
 
 
 [1] J. Bernhardt, K. Fallon, G. Dusek, "Conoce Tus Opciones: The Challenges of Communicating Rip Current Information in Spanish," <i>Weather, Climate, and Society,</i> vol. 16, no. 4, pp.597-609, 2024.

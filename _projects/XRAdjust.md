@@ -2,7 +2,7 @@
 layout: page
 title: XR Fixture Adjustment
 description: HoloLens application for human-robot interaction.
-img: 
+img: assets/img/hololens.avif
 importance: 3
 category: work
 related_publications: false
