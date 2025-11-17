@@ -35,7 +35,10 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-manuscript-corrientes-marinas-evaluating-spanish-rip-current-communications-through-beach-signs-and-virtual-reality-was-accepted-for-publication-in-weather-climate-and-society",
+            },},{id: "news-our-work-on-the-virtual-reality-rip-current-simulation-was-mentioned-in-governor-hochul-s-press-release",
+          title: 'Our work on the virtual reality rip current simulation was mentioned in Governor...',
+          description: "",
+          section: "News",},{id: "news-our-manuscript-corrientes-marinas-evaluating-spanish-rip-current-communications-through-beach-signs-and-virtual-reality-was-accepted-for-publication-in-weather-climate-and-society",
           title: 'Our manuscript “Corrientes Marinas: Evaluating Spanish Rip Current Communications through Beach Signs and...',
           description: "",
           section: "News",},{id: "news-we-are-scheduled-to-present-our-work-corrientes-marinas-evaluating-spanish-rip-current-communications-through-beach-signs-and-virtual-reality-at-the-106th-american-meteorological-society-annual-meeting-during-the-session-advancements-of-risk-communication-in-spanish-speaking-communities-on-january-28th-at-9-45-am-central-time",
