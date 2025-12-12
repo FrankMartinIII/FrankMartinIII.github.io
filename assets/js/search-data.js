@@ -112,13 +112,13 @@ ninja.data = [{
           description: "Stepper motors and a Stewart platform operated using ROS on a Raspberry Pi 4B—completed for Master&#39;s Thesis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/masters/";
-            },},{id: "projects-rip-current-virtual-reality-simulation",
-          title: 'Rip Current Virtual Reality Simulation',
+            },},{id: "projects-rip-current-vr-simulation",
+          title: 'Rip Current VR Simulation',
           description: "Simulating the experience of being caught in a rip current in virtual reality.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/rip_current/";
-            },},{id: "projects-snow-squall-driving-simulation",
-          title: 'Snow Squall Driving Simulation',
+            },},{id: "projects-snow-squall-vr-driving-simulation",
+          title: 'Snow Squall VR Driving Simulation',
           description: "Experience driving through a snow squall using virtual reality.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/snow_squall/";
