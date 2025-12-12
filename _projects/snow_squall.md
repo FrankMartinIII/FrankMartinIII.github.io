@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Snow Squall Driving Simulation
+title: Snow Squall VR Driving Simulation
 description: Experience driving through a snow squall using virtual reality.
 img: assets/img/Fast_Pileup.png
 importance: 2
 category: work
-related_publications: false
+related_publications: true
 featured: true
 ---
 
@@ -52,3 +52,4 @@ We surveyed over 200 participants using this simulation around Pennsylvania and 
     </div>
 </div>
 
+<!--[2] {% cite SnowSquallDev %}-->
