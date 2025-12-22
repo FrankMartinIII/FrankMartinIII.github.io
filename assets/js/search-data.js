@@ -102,8 +102,8 @@ ninja.data = [{
           description: "Finding a region of interest using a hand-drawn X-mark.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/InjectionTracking/";
-            },},{id: "projects-xr-fixture-adjustment",
-          title: 'XR Fixture Adjustment',
+            },},{id: "projects-mr-fixture-adjustment",
+          title: 'MR Fixture Adjustment',
           description: "HoloLens application for human-robot interaction.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/XRAdjust/";
