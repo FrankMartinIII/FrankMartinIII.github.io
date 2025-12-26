@@ -9,12 +9,16 @@ related_publications: false
 featured: true
 ---
 
-At Hofstra, we have developed several robotic systems designed to assist surgeons with closing wounds. To accomplish this task, the system takes a 3D scan of the wound and places magnetic fixtures on the around the wound's surface. To allow surgeons to interface with the robotic system, we created an XR application for the Microsoft HoloLens 2.
+<div class="row justify-content-sm-center" style="padding-bottom: 30px">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZgWkBI3HsqI?si=JkfbBuWc0HSSzE9l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
-The system sends the wound model and suggested fixture placements to the HoloLens application, displaying them in full 3D in the environment. The user can then manipulate the wound and fixture placements using their hands to correct any errors made by the system. When the user is ready, they can confirm the fixture placements, sending the positions and rotations back to the robot for placement.
+At Hofstra, we have developed several robotic systems designed to assist surgeons with closing wounds. To accomplish this task, the system takes a 3D scan of the wound and places magnetic fixtures on the wound's surface. To allow surgeons to interface with the robotic system, we created a mixed reality application for the Microsoft HoloLens 2.
+
+The system sends the wound model and suggested fixture placements to the HoloLens application, displaying them in full 3D in the environment. The user can then manipulate the wound and fixture placements using their hands to correct any errors made by the system, placing the fixtures as they think best. When the user is ready, they can confirm the fixture placements, sending the positions and rotations back to the robot for placement.
 
 
-I implemented an algorithm that forces holographic fixture models to align themselves along the wound surface. This is done by finding the surface normal at the fixture's current position, ensuring that the user can always easily place the fixture flush with the wound's surface without having to rotate it with extreme precision.
+I developed the surface‑alignment algorithm that ensures each holographic fixture automatically orients itself flush to the wound surface. This is done by finding the surface normal at the fixture's current position, removing the need for precise manual rotation and making adjustments fast an intuitive. I also designed and implemented the entire networking stack for this project, which sends the wound model and fixture positions from a server to the HoloLens 2 and allows the HoloLens 2 to send back fixture position and orientation data after user interaction. Additionally, this code reconciles the differences between Unity's coordinate system and the coordinate systems used in our robotic platforms.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
