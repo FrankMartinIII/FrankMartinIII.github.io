@@ -13,7 +13,7 @@ We are developing a robot that can deliver injections. Our goal is to make robot
 
 I came up with multiple ideas to accomplish this, conducting many experiments with ellipse fitting, circle detection, and contour tracking. Ultimately, we settled on the idea of using an X shape. Why? An X is easy for a human to draw, has an exact point of interest, and is intuitive for a human to understand. Regardless of the size and shape of the X, it is obvious that the injection should be delivered at the intersection point, though detecting this with computer vision and retrieving a full 6 degree-of-freedom pose is more challenging.
 
-OpenCV has no built-in solution for detecting a hand-drawn X, so I created a method for this purpose. This solution does not use machine learning.
+OpenCV has no built-in solution for detecting a hand-drawn X, so I created an algorithm for this purpose. This solution does not use machine learning.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0 text-center">
         {% include figure.liquid loading="eager" path="assets/img/XDetection/image.png" title="example image" class="img-fluid rounded z-depth-1 w-50" %}
