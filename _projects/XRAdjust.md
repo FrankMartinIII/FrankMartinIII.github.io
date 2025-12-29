@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MR Fixture Adjustment
-description: HoloLens application for human-robot interaction.
+description: HoloLens interface for human-robot interaction.
 img: assets/img/hololens.avif
 importance: 3
 category: work
