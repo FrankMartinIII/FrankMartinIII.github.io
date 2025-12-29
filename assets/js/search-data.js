@@ -104,7 +104,7 @@ ninja.data = [{
               window.location.href = "/projects/InjectionTracking/";
             },},{id: "projects-mr-fixture-adjustment",
           title: 'MR Fixture Adjustment',
-          description: "HoloLens application for human-robot interaction.",
+          description: "HoloLens interface for human-robot interaction.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/XRAdjust/";
             },},{id: "projects-6-dof-end-effector-for-wound-closure-robot",
