@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Needle-Wielding Robot for Injection
-description: 
+description: PBVS control of Stewart platform to deliver injections.
 img: assets/img/Assembly.jpg
 importance: 1
 category: work
@@ -23,4 +23,22 @@ Our lab is developing a robotic system capable of performing precision medical p
 I have been experimenting with visual servoing techniques for robot control. My current approach is to use position-based visual servoing (PBVS) for the initial positioning of the robot and then switch to image-based visual servoing (IBVS) for small adjustments. The inverse kinematics of a closed-chain parallel robot like the Stewart platform are relatively easy to calculate, making it simple to solve for the leg lengths required to reach a particular pose. However, the forward kinematic problem (determing platform pose from known leg lengths) is difficult to solve. This presents a challenge when using visual servoing in a high precision scenario, as we want to know the platform's current pose. To accomplish this, I built a ROS node that reads real-time actuator feedback from the robot and feeds it to another node that uses the Newton-Raphson method to iteratively estimate the robot's pose.
 
 Another focus of this project is the calibration of our Stewart platform to increase its accuracy. I have been working on a calibration method using <strong>ArUco markers</strong>. A camera is mounted to the aluminum frame that suports the robot, and the geometry of the base as well as its position relative to the camera are known. By attaching an ArUco marker to the top of the platform, we can determine its pose in the camera frame. This can be converted to a pose in the world frame by using the known transformation between the base and the camera. We can then command the platform to move throughout its workspace, tracking the desired pose versus the actual pose achieved, and use this data to perform nonlinear least squares optimization to minimize the error.
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Injection/aruco_apparatus3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Injection/top_angle2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-1 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Injection/monitor2.jpg" title="Stewart platform" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Setup for calibration using ArUco markers for tracking.
+</div>
 

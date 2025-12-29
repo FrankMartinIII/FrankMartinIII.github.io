@@ -13,7 +13,7 @@ Snow squalls are short periods of intense snowfall. These events create dangerou
 
 Our project was funded by the <a href="https://www.nsc.org/newsroom/2024-road-to-zero-community-traffic-grant-winners?srsltid=AfmBOooyWGNTrF2DfJfRd35DznS9zSWjhZZ3vWtyXxnPlY9o3Xapzw_3">National Safety Council Road to Zero grant</a>. We collaborated with the National Weather Service for this project and have a [webpage with more snow squall information on their website](https://www.weather.gov/ctp/snowsquall).
 
-Similarly to our previous rip current simulation, we worked with native Spanish-language speakers to translate the simulation. I used this opportunity to study the different ways in which English and Spanish-speaking groups relate to the same virtual reality simulation—something that has rarely been considered in existing research.
+Similarly to our previous rip current simulation, we worked with native Spanish-language speakers to translate the simulation. I used this opportunity to study the different ways in which English- and Spanish-speaking groups relate to the same virtual reality simulation—something that has rarely been considered in existing research.
 
 I also created a web-based version of the simulation that is playable without a virtual reality headset. <a href="https://storage.googleapis.com/snow-squall-webgl/index.html">It is available here</a>.
 
@@ -34,14 +34,14 @@ I also created a web-based version of the simulation that is playable without a 
     </div>
 </div>
 <div class="caption">
-    I strove to make the simulation as accurate as possible, down to accurate changeable message sign wording from the Pennsylvanis Dept. of Transportation.
+    I strove to make the simulation as accurate as possible, down to the exact changeable message sign wording from the Pennsylvanis Dept. of Transportation.
 </div>
 
 <div class="row justify-content-sm-center" style="padding-bottom: 30px">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/NJsiu-tQ1y8?si=1D4XDzwzksBhVNE9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-We surveyed over 200 participants using this simulation around Pennsylvania and New York.
+We conducted a user study using this simulation with over 200 participants in Pennsylvania and New York. Our findings indicate that the simulation successfully created a realistic depiction of a snow squall. Additionally, we outlined significant differences between the simulation's impact on the English- and Spanish-speaking groups. On a Likert-scale question (1-5) that asked users "To what extent did this VR experience impact/change the way you might respond to a snow squall in the future?," Spanish speakers mean response was 4.0 versus that of English speakers which was 3.66. This was found to be a statistically significant difference (p < 0.05) as computed using a two-tailed t-test, indicating VR's ability to foster understanding of hazards which are difficult to communicate to some immigrant groups due to a lack of prior exposure to the risk. 
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-3 mt-3 mt-md-0">
