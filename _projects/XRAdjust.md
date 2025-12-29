@@ -21,13 +21,34 @@ The system sends the wound model and suggested fixture placements to the HoloLen
 I developed the surface‑alignment algorithm that ensures each holographic fixture automatically orients itself flush to the wound surface. This is done by finding the surface normal at the fixture's current position, removing the need for precise manual rotation and making adjustments fast an intuitive. I also designed and implemented the entire networking stack for this project, which sends the wound model and fixture positions from a server to the HoloLens 2 and allows the HoloLens 2 to send back fixture position and orientation data after user interaction. Additionally, this code reconciles the differences between Unity's coordinate system and the coordinate systems used in our robotic platforms.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Hololens/FixturesPre.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Hololens/fixturesHoriz.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-1 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Hololens/UI.jpg" title="Interface" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Left: Pre-manipulation by user in AR. Right: Post-manipulation by user in AR.
+    Interface
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Hololens/w15andUI.jpg" title="wound and UI" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Hololens/w15prior2.jpg" title="wound" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Pre-manipulation by user in AR. Post-manipulation by user in AR.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Hololens/w15postandUI.jpg" title="wound and UI" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Hololens/w15postgood.jpg" title="wound" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Post-manipulation by user in AR.
 </div>
