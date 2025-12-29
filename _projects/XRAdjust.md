@@ -38,7 +38,7 @@ I developed the surface‑alignment algorithm that ensures each holographic fixt
     </div>
 </div>
 <div class="caption">
-    Pre-manipulation by user in AR. Post-manipulation by user in AR.
+    Pre-manipulation by user in AR.
 </div>
 
 <div class="row">
