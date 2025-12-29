@@ -94,7 +94,7 @@ ninja.data = [{
               window.location.href = "/projects/9_project/";
             },},{id: "projects-needle-wielding-robot-for-injection",
           title: 'Needle-Wielding Robot for Injection',
-          description: "",
+          description: "PBVS control of Stewart platform to deliver injections.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/InjectionRobot/";
             },},{id: "projects-injection-site-tracking",
