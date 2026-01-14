@@ -5,7 +5,7 @@ description: HoloLens interface for human-robot interaction.
 img: assets/img/hololens.avif
 importance: 3
 category: work
-related_publications: false
+related_publications: true
 featured: true
 ---
 
@@ -52,3 +52,5 @@ I developed the surface‑alignment algorithm that ensures each holographic fixt
 <div class="caption">
     Post-manipulation by user in AR.
 </div>
+
+<!--[2] {% cite MRWound %}-->
