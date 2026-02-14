@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our manuscript "Corrientes Marinas: Evaluating Spanish Rip Current Communications through Beach Signs and Virtual Reality" was accepted for publication in <i>Weather, Climate, and Society.</i>
+Our manuscript <b>"Corrientes Marinas: Evaluating Spanish Rip Current Communications through Beach Signs and Virtual Reality"</b> was accepted for publication in <i>Weather, Climate, and Society.</i>
